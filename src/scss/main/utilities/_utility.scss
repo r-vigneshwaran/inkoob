@@ -1,0 +1,10 @@
+@mixin text-primary {
+  list-style: none;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: 'Poppins';
+  color: $grey;
+}
+.justify-center{
+  justify-content: center !important;
+}

@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  margin-bottom: 40px;
+  @media (min-width: $medium) {
+    display: none;
+  }
+}
+.mirror-primary {
+  color: $bg-secondary;
+  transform: rotateY(180deg);
+}
+.z-mirror-primary {
+  color: $bg-secondary;
+  transform: rotateZ(90deg);
+}
