@@ -9,7 +9,7 @@ const Navbar = ({ toggleSidebar }) => {
       </div>
       <div className="logo">
         <div className="title">
-          <h2>Lorem Ipsum</h2>
+          <h2>Lorem</h2>
         </div>
       </div>
       <div className="cart">

@@ -2,18 +2,24 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 50px;
   margin-bottom: 40px;
+  padding: 0px 20px;
   @media (min-width: $medium) {
     display: none;
   }
 }
+.ham-burger {
+  cursor: pointer;
+}
 .mirror-primary {
   color: $bg-secondary;
   transform: rotateY(180deg);
+  cursor: pointer;
 }
 .z-mirror-primary {
   color: $bg-secondary;
   transform: rotateZ(90deg);
+  cursor: pointer;
 }
